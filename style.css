@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada:400,700|Lobster|Nunito:700|Armata:700|Open+Sans|Satisfy');
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/*----Navigation Bar----*/
+
+nav {
+    border-color: #888;
+    transition: all 0.2s;
+}
+
+.navbar-brand {
+    position: absolute;
+    width: auto;
+    font-family: 'Lobster', cursive;
+    font-size: 21px;
+}
+
+.navbar-nav {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-toggle {
+    z-index: 3;
+}
+
+/*----Header/About----*/
+
+header {
+    text-align: center;
+    padding-top: 8px;
+    margin: 18px;
+}
+
+header::after {
+    content: "";
+    background-image: url('http://i.imgur.com/rddXK.jpg');
+    background-position: bottom;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+header p {
+    font-family: 'Armata', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    text-transform: uppercase;
+}
+
+hr {
+    border-color: black;
+    border-width: 3px;
+    max-width: 50px;
+}
+
+hr.small {
+    max-width: 100px;
+    border-color: white;
+}
+
+header img {
+    border-radius: 50%;
+    margin: 30px 0 10px;
+    max-width: 80%;
+    height: auto;
+    width: 250px;
+    box-shadow: 0.5px 3px 4px rgba(8, 8, 8, 0.5);
+}
+
+/*----Portofolio----*/
+.row {
+
+}
+
+#porto {
+    background-color: orange;
+    color: white;
+}
+
+#porto h2 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.portofolio {
+    padding: 50px 0;
+}
+
+#porto img {
+    max-width: 100%;
+    height: auto;
+    position: center;
+    box-shadow: 0.5px 3px 4px rgba(8, 8, 8, 0.5);
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+/*---Contact----*/
+
+footer ul {
+    font-size: 16px;
+}
+
+.signature {
+    font-family: 'Satisfy', cursive;
+    font-size: 16px;
+}
